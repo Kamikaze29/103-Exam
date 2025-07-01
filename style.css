@@ -1,0 +1,134 @@
+body {
+  background-color: rgba(215, 210, 152, 0.53);
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  background-color: #5f514c;
+}
+
+#main {
+  display: inline-block;
+  margin-left: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  background: linear-gradient(to right, #00c9ff, #92fe9d, #ff99cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav li {
+  display: inline;
+  color: white;
+}
+
+li a {
+  color: white;
+  font-size: 30px;
+  padding: 56px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+#navbar {
+  text-align: left;
+}
+
+li a:hover {
+  color: #00c9ff;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2.8;
+}
+
+#heading {
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  margin-left: 38%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #5f514c53;
+  padding: 10px;
+  border: 2px solid #47ef66;
+  text-align: center;
+  border-radius: 22px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+form button {
+  background-color: #5f514c53;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ff99cc;
+}
+
+#contact form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #5f514c;
+  color: white;
+}

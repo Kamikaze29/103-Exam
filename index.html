@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="main">Artem Kovaskyi presents..</h1>
+      <nav>
+        <ul id="navbar">
+          <li><a href="#main">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2 id="heading">About Artem</h2>
+        <p>
+          Hey friend, here i will share a bit about myself. My name is Artem
+          Kovalskyi. I'm a young fellow originated from Ukraine. I'm 19 years of
+          age and currently live in Vancouver British Columbia. I've moved here
+          almost 2 years ago by myself and trying to build a new life here in
+          Canada. Hope you will like this website!
+        </p>
+        <p>
+          I'm currently enrolled into Cybersecurity course in CCTB coollege. I'm
+          really interested in studying technology and maybe my career will
+          depend on those preferences of mine. Beside IT field, i'm quite active
+          related to physical activity. I like to workout, walk, play any sport
+          i can compete in xD. Sometimes i also enjoy wathcing series or animes
+          and even reading books. I think i need to concentrate on the last one
+          since that is really beneficial for your development overall. Thank
+          you for taking a minute to visit this freshly created website of mine.
+          Below you will find more information reading my skills. You can also
+          contact me using the contact form, feel free! Best regards!
+        </p>
+      </section>
+      <section id="skills">
+        <h2 id="heading">My Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Git & GitHub</li>
+          <li>Network configuration</li>
+          <li>Linux Basics</li>
+          <li>UI & UX Design</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2 id="heading">Contact Me</h2>
+        <form action="#" method="post">
+          <label for="name">Name *</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+
+          <label for="email">Email *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+          />
+
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject (optional)"
+          />
+
+          <label for="message">Message *</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message..."
+            required
+          ></textarea>
+
+          <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Artem Kovaskyi. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
